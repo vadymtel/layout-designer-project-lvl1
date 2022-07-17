@@ -14,14 +14,14 @@
 
 <body>
 
-    <header class="header section">
-        <h1 class="title-main">Когнитивные<br>
+    <header class="section lightly">
+        <h1>Когнитивные<br>
             искажения<br>
-            <span class="title-dark">в программировании</span>
+            <span class="font-dark">в программировании</span>
         </h1>
-        <img class="img-main" src="../src/img/main.png" height="525px"
+        <img class="img-main" src="./img/main.png" height="525px"
             alt="рисованый человечек сидит с ноутбуком в растеряности">
-        <div class="description-main">
+        <div class="column">
             <p>Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с нашей продуктивностью. Но мы
                 часто игнорируем
                 целостную картину. Некоторые из этих проблем малозаметны, некоторые существенны. Иногда с ними можно
@@ -41,19 +41,21 @@
     </header>
 
     <main>
-        <article class="section-short white-grnd">
-            <h2 class="title-dark">Что же это такое,<br>
-                <span class="title-main">когнитивные искажения?</span>
+
+        <article class="section-video">
+            <h2><span class="font-dark">Что же это такое,</span><br>
+                когнитивные искажения?
             </h2>
             <p>Что такое когнитивные искажения. Petrovna Channel</p>
             <iframe class="video" width="919" height="569" src="https://www.youtube.com/embed/jie9AizBqss"
                 frameborder="0" allowfullscreen>
             </iframe>
         </article>
+
         <article id="navigation" class="section-dark content">
             <div class="content-name">
-                <h2 class="title-main title-medium">5 когнитивных искажений<br>
-                    <span class="title-white">о существовании которых стоит<br>
+                <h2 class="title-medium">5 когнитивных искажений<br>
+                    <span class="font-white">о существовании которых стоит<br>
                         помнить</span>
                 </h2>
             </div>
@@ -62,51 +64,73 @@
                 <h3>Эффект ИКЕА</h3>
                 <p>Вы переоцениваете собственные решения, и, как следствие, недооцениваете решения других.</p>
             </a>
-            <a class="content-items">
+            <a class="content-items" href="#premature-optimization">
                 <h2>2</h2>
                 <h3>Преждевременная оптимизация</h3>
                 <p>Вы оптимизируете что-то задолго до того, как в этом появляется необходимость.</p>
             </a>
-            <a class="content-items">
+            <a class="content-items" href="#">
                 <h2>3</h2>
                 <h3>Искажение новизны</h3>
                 <p>Вы даёте более высокую оценку тем событиям, которые произошли недавно, и недооцениваете более старые.
                 </p>
             </a>
-            <a class="content-items">
+            <a class="content-items" href="#">
                 <h2>4</h2>
                 <h3>Гиперболическое обесценивание</h3>
                 <p>Вы гонитесь за немедленной маленькой выгодой и игнорируете более крупную, недоступную сейчас, но
                     доступную в будущем.</p>
             </a>
-            <a class="content-items">
+            <a class="content-items" href="#">
                 <h2>5</h2>
                 <h3>Ошибка планирования</h3>
                 <p>Неправильно рассчитывать время необходимое для завершения задачи.</p>
             </a>
         </article>
-        <article id="ikea-effect" class="section-ikea">
+
+        <article id="ikea-effect" class="section lightly">
             <div class="column">
-                <img class="img-ikea" src="../src/img/1.png" width="578px"
+                <img class="img" src="./img/1.png" width="578px"
                     alt="рисованый человечек доказывает свою правоту другому перед монитором">
-                <p class="p-chapter">Когнитивные искажения</p>
-                <h2>Эффект ИКЕА</h2>
-                <p class="p-neucha">Вы переоцениваете собственные решения, и, как следствие, недооцениваете
+                <p class="p-chapter marg-left">Когнитивные искажения</p>
+                <h2 class="font-dark marg-left">Эффект ИКЕА</h2>
+                <p class="p-neucha marg-left">Вы переоцениваете собственные решения, и, как следствие, недооцениваете
                     решения других.</p>
             </div>
-            <div class="column ikea">
+            <div class="column description">
                 <h3 class="column-span">Как проявляется</h3>
                 <p>Когнитивное искажение называется так из-за того, что потребители зачастую предпочитают покупать
                     товары,
                     которые они
                     могут собрать сами, а не уже собранные кем-то.</p>
                 <p>Мы склонны переоцнивать наши собственные решения и недооценивать решения других. Если вы когда-то
-                    работали в компании, которая использовала тупой внутренний инструмент вместо более удобного готового
+                    работали в компании, которая использовала тупой внутренний инструмент вместо более удобного
+                    готового
                     решения, вы
                     понимаете, о чём я говорю.</p>
             </div>
         </article>
-        <article class="section"></article>
+
+        <article id="premature-optimization" class="section brown">
+            <div class="column">
+                <p class="p-chapter font-white">Когнитивные искажения</p>
+                <h2 class="font-white">Преждевременная оптимизация</h2>
+                <p class="p-neucha font-white">Вы оптимизируете что-то задолго до того, как в этом появляется
+                    необходимость.
+                </p>
+                <img class="img optimization" src="./img/2.png" width="578px"
+                    alt="рисованый человечек запустил ракету в небо на мониторе ноутбука">
+            </div>
+            <div class="column description">
+                <h3 class="column-span white">Как проявляется</h3>
+                <p class="font-white">Если вы добавите аэродинамический спойлер к своему старому автомобилю вместо
+                    ремонта
+                    мотора, то автомобиль не станет быстрее.</p>
+                <p class="font-white">Отличный пример: писать максимально подтюненный и высокопроизводительный код для
+                    всего
+                    лишь экспериментального проекта.</p>
+            </div>
+        </article>
         <article class="section"></article>
         <article class="section"></article>
         <article class="section"></article>
