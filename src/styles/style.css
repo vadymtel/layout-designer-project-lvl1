@@ -275,6 +275,10 @@ a.link-button {
   break-inside: avoid;
 }
 
+.breack-after {
+  break-after: avoid;
+}
+
 .footer {
   height: 100%;
   position: relative;
