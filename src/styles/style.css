@@ -30,11 +30,12 @@ body {
   width: 1440px;
 }
 
-a {
+main a {
+  color: var(--dark);
   text-decoration: none;
 }
 
-a:visited {
+main a:visited {
   color: var(--dark);
 }
 
@@ -82,7 +83,7 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   opacity: 0.1;
-  /* z-index: -1; */
+  z-index: -1;
 }
 
 .section {
@@ -122,10 +123,10 @@ main {
   position: absolute;
   top: 55px;
   left: 461px;
-  /* z-index: -1; */
+  z-index: -1;
 }
 
-.link-button {
+a.link-button {
   display: inline-block;
   margin-left: 570px;
   margin-top: 40px;
@@ -141,12 +142,9 @@ main {
   height: 814px;
   padding-top: 100px;
   text-align: center;
-  background-color: var(--white);
-}
-
-.section-video p {
   margin-top: 26px;
   margin-bottom: 30px;
+  background-color: var(--white);
 }
 
 .video {
@@ -255,7 +253,7 @@ main {
 }
 
 .section.brown {
-  /* z-index: -1; */
+  z-index: -1;
   background-color: var(--brown);
 }
 
@@ -271,4 +269,79 @@ main {
 
 .breack-inside {
   break-inside: avoid;
+}
+
+.footer {
+  height: 100%;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 165px;
+  padding-right: 165px;
+  background-color: var(--white);
+}
+
+.form {
+  position: relative;
+  margin-bottom: 60px;
+  background-color: var(--main-dark-color);
+}
+
+.form a {
+  text-decoration: underline;
+}
+
+footer h3 {
+  padding: 55px;
+}
+
+.copytight {
+  text-align: center;
+}
+
+.copytight a {
+  color: var(--blue);
+  text-decoration: underline;
+}
+
+.consent {
+  position: absolute;
+  top: 125px;
+  font-size: 12px;
+}
+
+input {
+  margin-top: 75px;
+  margin-bottom: 65px;
+  height: 50px;
+  width: 423px;
+  padding: 15px;
+  border: none;
+}
+
+label {
+  position: absolute;
+  top: 38px;
+  font-size: 18px;
+}
+
+input::placeholder {
+  font-size: 13.1px;
+  color: #757575;
+  opacity: 0.2;
+}
+
+button {
+  position: absolute;
+  top: 75px;
+  content: "";
+  height: 50px;
+  width: 70px;
+  border: none;
+  cursor: pointer;
+
+  background-image: url('../img/send.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: var(--main-color);
 }
