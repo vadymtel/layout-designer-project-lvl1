@@ -268,3 +268,7 @@ main {
   position: relative;
   right: 38px;
 }
+
+.breack-inside {
+  break-inside: avoid;
+}
