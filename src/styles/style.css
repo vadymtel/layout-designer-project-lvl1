@@ -34,8 +34,6 @@ body {
 .content-wrapper {
   width: 1110px;
   margin: 0 auto;
-  padding-top: 100px;
-  padding-bottom: 100px;
 }
 
 main a {
@@ -93,7 +91,9 @@ h3 {
 .section {
   height: 100%;
   width: 100%;
-  padding-top: 100px auto;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
   position: relative;
 }
 
@@ -257,8 +257,15 @@ a.link-button {
 }
 
 .section.brown {
+
   z-index: -1;
   background-color: var(--brown);
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .column-span.white {
@@ -279,7 +286,7 @@ a.link-button {
   break-after: column;
 }
 
-.content-wrapper.order {
+.order-1 {
   order: -1;
 }
 
@@ -294,6 +301,7 @@ a.link-button {
 .form {
   position: relative;
   margin-bottom: 60px;
+  width: 1110px;
   background-color: var(--main-dark-color);
 }
 
@@ -306,10 +314,12 @@ footer h3 {
 }
 
 .copytight {
+  font-size: 14px;
   text-align: center;
 }
 
 .copytight a {
+  font-size: 14px;
   color: var(--blue);
   text-decoration: underline;
 }
