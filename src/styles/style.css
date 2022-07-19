@@ -32,9 +32,8 @@ body {
 }
 
 .content-wrapper {
-  width: 1110px;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  width: 1440px;
+  padding: 100px 165px;
   margin: 0 auto;
 }
 
@@ -293,8 +292,7 @@ a.link-button {
 
 .footer {
   position: relative;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 165px;
   margin: 0 auto;
   background-color: var(--white);
 }
