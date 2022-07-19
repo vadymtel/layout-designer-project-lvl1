@@ -168,7 +168,7 @@ a.link-button {
   height: 569px;
   margin-left: auto;
   margin-right: auto;
-  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
 .title-medium {
@@ -215,7 +215,7 @@ a.link-button {
 
 .img {
   background-color: var(--white);
-  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 0.15));
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
 .p-neucha {
@@ -363,3 +363,5 @@ button {
   background-position: center;
   background-color: var(--main-color);
 }
+
+/* end */
