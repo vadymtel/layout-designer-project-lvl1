@@ -42,6 +42,16 @@ main a {
   text-decoration: none;
 }
 
+.form a {
+  text-decoration: underline;
+}
+
+.copytight a {
+  font-size: 14px;
+  color: var(--blue);
+  text-decoration: underline;
+}
+
 main a:visited {
   color: var(--dark);
 }
@@ -55,7 +65,7 @@ h2,
 h3 {
   margin: 0;
   color: var(--main-color);
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   line-height: 1.2em;
   font-weight: 400;
 }
@@ -158,7 +168,7 @@ a.link-button {
   height: 569px;
   margin-left: auto;
   margin-right: auto;
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 0.15));
 }
 
 .title-medium {
@@ -205,14 +215,14 @@ a.link-button {
 
 .img {
   background-color: var(--white);
-  filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 15%));
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 0.15));
 }
 
 .p-neucha {
   margin: 0;
   margin-top: 30px;
   font-size: 34px;
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   line-height: 1.2em;
 }
 
@@ -220,7 +230,7 @@ a.link-button {
   margin: 0;
   color: var(--tranclucent-dark);
   font-size: 24px;
-  font-family: "Neucha", cursive;
+  font-family: Neucha, cursive;
   line-height: 1.2em;
 }
 
@@ -298,11 +308,7 @@ a.link-button {
   background-color: var(--main-dark-color);
 }
 
-.form a {
-  text-decoration: underline;
-}
-
-footer h3 {
+.footer h3 {
   display: inline-block;
   margin: 55px;
   vertical-align: middle;
@@ -311,12 +317,6 @@ footer h3 {
 .copytight {
   font-size: 14px;
   text-align: center;
-}
-
-.copytight a {
-  font-size: 14px;
-  color: var(--blue);
-  text-decoration: underline;
 }
 
 .consent {
@@ -358,7 +358,7 @@ button {
   border: none;
   cursor: pointer;
 
-  background-image: url('../img/send.svg');
+  background-image: url("../img/send.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-color: var(--main-color);
