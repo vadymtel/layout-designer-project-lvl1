@@ -20,8 +20,9 @@
                 искажения<br>
                 <span class="font-dark">в программировании</span>
             </h1>
-            <img class="img-main" src="./img/main.png" alt="рисованый человечек сидит с ноутбуком в растеряности">
-            <div class="column">
+            <div class="header-img"></div>
+            <!-- <img class="img-main" src="./img/main.png" alt="рисованый человечек сидит с ноутбуком в растеряности"> -->
+            <div class="column header-column">
                 <p class="breack-after">Мы, разработчики, часто сталкиваемся с проблемами, которые идут вразрез с нашей
                     продуктивностью. Но мы
                     часто игнорируем
@@ -38,23 +39,32 @@
                     цикл, а остатки
                     нейтрализовать.
                 </p>
+                <a class="link-button" href="#navigation">подробнее</a>
             </div>
-            <a class="link-button" href="#navigation">подробнее</a>
         </div>
     </header>
 
     <main>
 
-        <article class="section-video">
+        <article class="section white align-center">
+            <h2><span class="font-dark">Что же это такое,</span><br>
+                когнитивные искажения?
+            </h2>
+            <p class="p-video">Что такое когнитивные искажения. Petrovna Channel</p>
+            <iframe class="video" src="https://www.youtube.com/embed/jie9AizBqss" frameborder="0" allowfullscreen>
+            </iframe>
+        </article>
+
+        <!-- <article class="section-video">
             <h2><span class="font-dark">Что же это такое,</span><br>
                 когнитивные искажения?
             </h2>
             <p>Что такое когнитивные искажения. Petrovna Channel</p>
             <iframe class="video" src="https://www.youtube.com/embed/jie9AizBqss" frameborder="0" allowfullscreen>
             </iframe>
-        </article>
+        </article> -->
 
-        <article id="navigation" class="section-dark content">
+        <article id="navigation" class="navigation-content">
             <div class="content-name">
                 <h2 class="title-medium">5 когнитивных искажений<br>
                     <span class="font-white">о существовании которых стоит<br>
@@ -94,13 +104,14 @@
         <article id="ikea-effect" class="section">
             <div class="content-wrapper">
                 <div class="column">
-                    <img class="img" src="./img/1.png" width="578"
-                        alt="рисованый человечек доказывает свою правоту другому перед монитором">
+                    <div class="img-content ikea-effect"></div>
+                    <!-- <img class="img" src="./img/1.png"
+                        alt="рисованый человечек доказывает свою правоту другому перед монитором"> -->
                     <p class="p-chapter marg-left">Когнитивные искажения</p>
                     <h2 class="font-dark marg-left">Эффект ИКЕА</h2>
                     <p class="p-neucha marg-left">Вы переоцениваете собственные решения, и, как следствие,
-                        недооцениваете
-                        решения других.</p>
+                        недооцениваете решения других.
+                    </p>
                 </div>
                 <div class="column">
                     <h3 class="column-span">Как проявляется</h3>
@@ -119,33 +130,33 @@
         </article>
 
         <article class="section brown">
-            <div id="premature-optimization" class="content-wrapper flex">
+            <div id="premature-optimization" class="content-wrapper">
                 <div class="order2"></div>
                 <div class="column">
                     <p class="p-chapter font-white">Когнитивные искажения</p>
                     <h2 class="font-white">Преждевременная оптимизация</h2>
                     <p class="p-neucha font-white">Вы оптимизируете что-то задолго до того, как в этом появляется
-                        необходимость.</p>
-                    <img class="img optimization" src="./img/2.png" width="578"
+                        необходимость.
+                    </p>
+                    <img class="img optimization" src="./img/2.png"
                         alt="рисованый человечек запустил ракету в небо на мониторе ноутбука">
                 </div>
                 <div class="column">
                     <h3 class="column-span white">Как проявляется</h3>
                     <p class="font-white">Если вы добавите аэродинамический спойлер к своему старому автомобилю вместо
-                        ремонта
-                        мотора, то автомобиль не станет быстрее.</p>
+                        ремонта мотора, то автомобиль не станет быстрее.
+                    </p>
                     <p class="font-white">Отличный пример: писать максимально подтюненный и высокопроизводительный код
-                        для
-                        всего
-                        лишь экспериментального проекта.</p>
+                        для всего лишь экспериментального проекта.
+                    </p>
                 </div>
             </div>
         </article>
 
-        <article id="distortion-of-novelty" class="section lightly">
+        <article id="distortion-of-novelty" class="section">
             <div class="content-wrapper">
                 <div class="column">
-                    <img class="img" src="./img/3.png" width="578"
+                    <img class="img" src="./img/3.png"
                         alt="у рисованого человечека есть новая идея, старые он выбросил в мусор">
                     <p class="p-chapter marg-left">Когнитивные искажения</p>
                     <h2 class="font-dark marg-left">Искажение новизны</h2>
@@ -174,7 +185,7 @@
                     <p class="p-neucha font-white">Вы гонитесь за немедленной маленькой выгодой и игнорируете более
                         крупную,
                         недоступную сейчас, но доступную в будущем.</p>
-                    <img class="img optimization" src="./img/4.png" width="578"
+                    <img class="img optimization" src="./img/4.png"
                         alt="рисованый человечек нашел горсть золотых монет, но не видет за скалой сундук с золотом">
                 </div>
                 <div class="column">
@@ -192,11 +203,10 @@
             </div>
         </article>
 
-        <article id="errors-in-planning" class="section lightly">
+        <article id="errors-in-planning" class="section">
             <div class="content-wrapper">
                 <div class="column">
-                    <img class="img" src="./img/5.png" width="578"
-                        alt="рисованый человечек пишет в блокнот возле больших часов">
+                    <img class="img" src="./img/5.png" alt="рисованый человечек пишет в блокнот возле больших часов">
                     <p class="p-chapter marg-left">Когнитивные искажения</p>
                     <h2 class="font-dark marg-left">Ошибка планирования</h2>
                     <p class="p-neucha marg-left">Неправильно рассчитывать время необходимое для завершения задачи.</p>
@@ -216,19 +226,24 @@
     </main>
 
     <footer class="footer">
-        <form class="form column font-white">
-            <h3 class="font-white breack-inside">Хотите узнать больше? Подпишитесь на обновления</h3>
-            <label for="email">Электронная почта</label>
-            <input id="email" type="email" placeholder="Ваша электронная почта">
-            <button></button>
-            <p class="consent">Подписываясь, вы принимаете <a class="font-white" href="#">правила сервиса</a></p>
-        </form>
-        <div class="copytight">
+        <div class="footer-main font-white">
+            <div class="footer-title">
+                <h3 class="font-white">Хотите узнать больше? Подпишитесь на обновления</h3>
+            </div>
+            <form class="form-send">
+                <label for="email">Электронная почта</label>
+                <input class="email-fild" id="email" type="email" placeholder="Ваша электронная почта">
+                <input class="button" type="submit" value="">
+                <p class="consent">Подписываясь, вы принимаете <a class="font-white" href="#">правила сервиса</a></p>
+            </form>
+        </div>
+
+        <div class="copyright">
             <p>© 2022 Вадим Тел</p>
-            <p>По материалам статьи <a
+            <p>По материалам статьи <a class="link-copyright"
                     href="https://medium.com/hackernoon/cognitive-biases-in-programming-5e937707c27b">Yash Ranadive
                     Cognitive Biases in Programming</a></p>
-            <a href="https://ru.hexlet.io/">Курсы программирования Hexlet</a>
+            <a class="link-copyright" href="https://ru.hexlet.io/">Курсы программирования Hexlet</a>
         </div>
     </footer>
 </body>
