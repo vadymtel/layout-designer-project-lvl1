@@ -92,9 +92,8 @@ header {
 }
 
 .columns {
-  column-count: 2;
+  columns: 2 540px;
   column-gap: 30px;
-  column-width: 540px;
 }
 
 .breack-after {
@@ -303,7 +302,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-content: center;
-  padding: 38px 55px 40px 55px;
+  padding: 38px 55px 40px;
   width: 1110px;
   background-color: var(--main-dark-color);
 }
