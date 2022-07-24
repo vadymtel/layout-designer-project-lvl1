@@ -299,26 +299,34 @@ header {
 }
 
 .footer-main {
+  position: relative;
   display: flex;
   justify-content: space-between;
-  padding: 55px;
+  align-content: center;
+  padding: 38px 55px 40px 55px;
   width: 1110px;
   background-color: var(--main-dark-color);
 }
 
 .footer-title {
-  max-width: 48%;
+  align-self: center;
+  max-width: 393px;
 }
 
 .form-send {
-  max-width: 48%;
+  max-width: 485px;
 }
 
 .consent {
+  display: inline-block;
+  margin: 0;
   font-size: 12px;
 }
 
-label {
+.label-email {
+  display: inline-block;
+  margin-top: -17px;
+  margin-bottom: 9px;
   font-size: 18px;
 }
 
@@ -328,7 +336,7 @@ input::placeholder {
   opacity: 0.2;
 }
 
-.email-fild {
+.input-email {
   position: relative;
   height: 50px;
   width: 423px;
@@ -338,7 +346,7 @@ input::placeholder {
 
 .button {
   position: absolute;
-  margin-left: -12px;
+  right: 55px;
   height: 50px;
   width: 70px;
   border: none;
@@ -357,7 +365,7 @@ input::placeholder {
 }
 
 .copyright {
-  margin-top: 76px;
+  margin-top: 60px;
   font-size: 14px;
   text-align: center;
 }
