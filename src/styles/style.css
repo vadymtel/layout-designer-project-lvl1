@@ -184,12 +184,6 @@ header {
   background-color: var(--lightly);
 }
 
-.items:hover {
-  color: var(--white);
-  text-decoration: none;
-  background-color: var(--main-color);
-}
-
 .items-number {
   font-size: 64px;
   line-height: 1;
@@ -206,6 +200,15 @@ header {
 .items-text {
   padding: 0;
   margin: 0;
+}
+
+.items:hover,
+.items:hover .items-number,
+.items:hover .items-name {
+  align-self: flex-start;
+  color: var(--white);
+  text-decoration: none;
+  background-color: var(--main-color);
 }
 
 .navigation-title {
