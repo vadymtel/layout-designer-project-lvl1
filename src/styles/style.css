@@ -111,7 +111,7 @@ header {
 }
 
 .button:hover {
-  background-color: #EA7600;
+  background-color: #ea7600;
 }
 
 .nav-link {
@@ -215,7 +215,7 @@ header {
 }
 
 .description-title {
-  margin: 100px 0 4px 0;
+  margin: 100px 0 4px;
   padding: 5px 10px;
   display: block;
   color: var(--white);
